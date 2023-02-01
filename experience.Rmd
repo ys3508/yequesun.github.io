@@ -1,0 +1,342 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+<br>
+
+# Introduction {.tabset}
+
+Strong biomedical and environmental science background, including Columbia MPH (2023) combined with real-world data analysis experience applied to clinical and epidemiology settings.
+
+*  Data analysis and mapping experience includes R, SAS, SPSS, QGIS
+*  As a research assistant, supported researchers with analytic work including sampling strategy, database structure design, data visualization, and clinical trial analyses. Analytic work is expected to be incorporated into final publication
+*  Strong communication skills and positive personality, developed presentations, maps, videos, and posters creatively
+
+
+## EDUCATION 
+
+<p style="text-align:left;">
+    **Columbia University in the City of New York**
+    <span style="float:right;">
+    New York, NY
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **_Master of Public Health (MPH)_**, Environmental Health Sciences
+    <span style="float:right;">
+    Expected 05/2023
+    </span>
+</p>
+
+*   GPA: 4.0/4.0
+
+*   Certificate in Applied Biostatistics and Public Health Data Science
+
+*   Quantitative Courses: Analysis of Categorical Date; Data Science for Environmental Health; Applied Regression 1; Applied Regression 2; Data Science; Data Science 2; Statistical Computing with SAS; Risk Assessment
+
+<p style="text-align:left;">
+    **Coursera Courses (With Certificate)**
+    <span style="float:right;">
+    09/2020
+    </span>
+</p>
+
+*   Quantitative Courses: Data Science Math Skills; Python Data Structure; Mathematics for Machine Learning: Linear Algebra; Matrix Methods; Analysis of Algorithms; C++ for C Programmers, Part A; Multivariate Calculus; Calculus: Single Variable Part 1-Functions
+
+<p style="text-align:left;">
+    **Converse University**
+    <span style="float:right;">
+    Spartanburg, SC
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **_Bachelor of Science (BS)_**,  Medical Technology 
+    <span style="float:right;">
+    05/2019
+    </span>
+</p>
+
+*   GPA: 3.9/4.0
+
+*   Honors: Dean’s List (2017 Fall & 2018 Spring & 2018 Fall); Summa Cum Laude; Member of Beta Beta Beta Biological Honor Society (2017-2019)
+
+
+
+<p style="text-align:left;">
+    **Anhui Medical University (AHMU), Clinic Medical College**
+    <span style="float:right;">
+    Anhui, China
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **_Bachelor of Science (BS)_**,  Medical Laboratory Technology 
+    <span style="float:right;">
+    06/2017
+    </span>
+</p>
+
+*   Relevant Courses: Medical Biostatistics; Immunology; Biochemistry; Microbiology; Physiology; Systemic Anatomy; Cell Biology 
+
+<br>
+
+## PROFESSIONAL EXPERIENCES
+
+<p style="text-align:left;">
+    **Shanghai INNSCI Information & Technology Co., Ltd**
+    <span style="float:right;">
+     Shanghai, China
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **_Advisor and Consultant, Medical Department_**
+    <span style="float:right;">
+    06/2020-07/2021
+    </span>
+</p>
+
+*   Provided evidence-based medicine services for clients, including clinical study protocol and business strategy
+
+*   Led 2 focus groups and completed market data analysis, for research on 3 different drugs; analysis insights and recommendations led to a 17% increase in sales on average
+
+*   Participated in data management process from study protocol to database lock for Electronic Data Capture (EDC) trials
+
+<p style="text-align:left;">
+    **AstraZeneca**
+    <span style="float:right;">
+    Shanghai, China
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **_Research Assistant, Database Construction for Clinical Research on Dapagliflozin_**
+    <span style="float:right;">
+    01/2021-05/2021
+    </span>
+</p>
+
+*   Retrieved and reviewed papers with Dapagliflozin clinical trials from PubMed and ClinicalTrials.gov
+
+*   Collected and entered clinical data in Excel by PICO structure (population, intervention, comparison, and outcome)
+
+*   Utilized SPSS and SAS to analyze data in Excel from over 400 clinical trials and built search indexes of datasets
+
+<p style="text-align:left;">
+    **Animal Medical Center**
+    <span style="float:right;">
+    Spartanburg, SC
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **_Laboratory Technician_**
+    <span style="float:right;">
+    08/2019-05/2020
+    </span>
+</p>
+
+*   Performed all the lab (blood, stool, and urine) tests, able to multi-task and work independently
+
+*   Appointed as intern coordinator and allocated resources to departments while recruiting additional interns
+
+<br>
+
+## INTERN EXPERIENCE
+
+<p style="text-align:left;">
+    **Columbia University in the City of New York**
+    <span style="float:right;">
+    New York, NY
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **_Research Assistant, Research on Environmental Carcinogens Disproportionally Mutate Genes Implicated in Neurodevelopmental Disorders_**
+    <span style="float:right;">
+    09/2022-present
+    </span>
+</p>
+
+*   Evaluated gene ontology for top mutated genes by literature review and research
+
+*   Cleaned and tidied data from the Gencode, extracted information on mutation, gene length, GC content, and other important variables using R
+
+*   Investigated gene length, expression, GC content, and bulky adduct repair as potential drivers of elevated mutability using Quasi-Poisson models
+
+* 	Developed an online tool for assessing the propensity of the 12 mutagen classes to cause mutations
+
+<p style="text-align:left;">
+    **The Climate Club**
+    <span style="float:right;">
+    New York, NY
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **_Content Writer_**
+    <span style="float:right;">
+    11/2021-present
+    </span>
+</p>
+
+*   Published original articles on the Climate Club website weekly
+
+*   Worked with the Citizens' Public Health Literacy (CIPHER) for online public course on climate change
+
+
+<p style="text-align:left;">
+    **Shanghai Jiaotong University School of Public Health**
+    <span style="float:right;">
+    Shanghai, China
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **_Research Intern, Research on Practice Status Towards HPV Vaccines Among Chinese Adolescents_**
+    <span style="float:right;">
+    06/2020- 02/2021
+    </span>
+</p>
+
+*   Participated in critical processes, including determining sampling strategy, designing the questionnaire, and performing pre-survey
+
+* 	Generated basic database statistics summary tables by `tidyverse` and `kableExtra` packages in R
+
+* 	Used SAS and R to analyze and visualize data for final publication, including 4 graphs and 2 charts
+
+<p style="text-align:left;">
+    **Converse University**
+    <span style="float:right;">
+    Spartanburg, SC
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **Research Intern, Research on Sweet Taste in Energy Regulation of Rats Database Construction**
+    <span style="float:right;">
+    04/2019-05/2019
+    </span>
+</p>
+
+*   Faculty Mentor: Richard Keen, Professor of Psychology and Chair of Psychology Department at Converse University
+
+*   Performed Newman-Keuls tests for post hoc tests
+
+*   Boosted training set's accuracy in TensorFlow RNN
+
+<p style="text-align:left;">
+    **Converse University**
+    <span style="float:right;">
+    Spartanburg, SC
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **Research Intern, Research on Effect of Ophiocordyceps Sinensis on Rat Liver’s Gene Expression**
+    <span style="float:right;">
+    08/ 2018-05/2019
+    </span>
+</p>
+
+*   Faculty Mentor: Neval Erturk, Associate Provost of Research and Engagement and Professor of Biology at Converse University
+
+*   Used WikiPathway analysis and Ingenuity Pathway Analysis (IPA) to identify the potential biochemical pathways that were affected by the parent chemicals and biotransformation products
+
+<p style="text-align:left;">
+    **Gibbs Cancer Center**
+    <span style="float:right;">
+    Spartanburg, SC
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **Research Intern, Research on COL1A1 Gene Sequencing**
+    <span style="float:right;">
+    01/2018-02/2018
+    </span>
+</p>
+
+*   Faculty Mentor: Barbara L. Christensen, Research Laboratory Manager at Gibbs Cancer Center
+
+* 	Isolated cell components with antibodies or DNA probes (via FACs)
+
+* 	Used statistical analysis for real-time quantitative PCR data
+
+<br>
+
+<br>
+
+
+## PROJECTS
+
+<p style="text-align:left;">
+    **Columbia University in the City of New York**
+    <span style="float:right;">
+    New York, NY
+    </span>
+</p>
+
+
+<p style="text-align:left;">
+    **Flight Delay and Cancellation Issue at John F. Kennedy International Airport**
+    <span style="float:right;">
+    10/2022-12/2022
+    </span>
+</p>
+
+*   Related Course: [Data Science I](https://p8105.com/), instructed by Jeff Goldsmith, Associate Professor in the Department of Biostatistics at Columbia University Mailman School of Public Health
+
+*   Created an interactive map displaying 66 destination airports with records of departure delays and/or cancellation from JFK using R `leaflet` package
+
+*  Utilized R `shiny` and `plotly` package to create a [Shiny App](https://sn2ylh-siyue-gao.shinyapps.io/delay_cancelation/) and multiple interactive graphs on outcome (delay and cancellation) and exposures factors of interest (ie. airlines, weather conditions, types of delay, COVID cases, and so on)
+
+*   Constructed linear regression and Poisson regression models for analyzing flight on-time performance and predictors 
+
+*   Final deliverables included multiple plots, a project report, a screencast, and a [website](https://yingchenx.github.io/final_project_jfk_delay/) as final deliverables
+
+<p style="text-align:left;">
+    **Columbia University in the City of New York**
+    <span style="float:right;">
+    New York, NY
+    </span>
+</p>
+
+<p style="text-align:left;">
+    **Assessing the Association between Air Pollution and Asthma by County in New York State, 2020**
+    <span style="float:right;">
+    09/2022-12/2022
+    </span>
+</p>
+
+*   Related Course: Public Health GIS, instructed by Joel A. Capellan, Adjunct Assistant Professor in the Department of Environmental Health Sciences at Columbia University Mailman School of Public Health
+
+*   Generated maps on asthma-related rates and PM2.5/ozone by county level in New York State respectively by QGIS 
+
+*   Conducted spatial clustering and regression analysis by GeoDa to evaluate effects of PM2.5 and ozone on asthma death rate, and mapped out relevant results by QGIS 
+
+*   Final deliverables included a paper and [poster](gis_project.html) with maps as well as research information
+
+<br>
+
+## SKILLS
+
+*   Programming skills: R, RStudio, SAS, SPSS, Python, C
+
+*   Mapping skills: QGIS and GeoDa
+
+*   Other Skills: Microsoft Office; video editing (Adobe Premiere Pro, Adobe After Effects and Final Cut Pro)
+
+*   Languages: Fluent in oral English, proficient in English reading and writing; Chinese (Native)
+
+<br>
+
+
+
+

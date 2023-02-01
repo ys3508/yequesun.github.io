@@ -1,0 +1,95 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+library(flexdashboard)
+```
+
+```{r}
+weather_df = 
+  rnoaa::meteo_pull_monitors(
+    c("USW00094728", "USC00519397", "USS0023B17S"),
+    var = c("PRCP", "TMIN", "TMAX"), 
+    date_min = "2017-01-01",
+    date_max = "2017-12-31") %>%
+  mutate(
+    name = recode(
+      id, 
+      USW00094728 = "CentralPark_NY", 
+      USC00519397 = "Waikiki_HA",
+      USS0023B17S = "Waterhole_WA"),
+    tmin = tmin / 10,
+    tmax = tmax / 10) %>%
+  select(name, id, everything())
+```
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### Scatterplot
+
+```{r}
+weather_df %>%
+  mutate(text_label = str_c("Min Temp: ", tmin, "\nMax Temp: ", tmax)) %>% #\n: next line;
+  plot_ly(
+    x = ~tmin, y = ~tmax, type = "scatter", mode = "markers",
+    color = ~name, text = ~text_label, alpha = 0.5) %>% 
+  layout(xaxis = list(title = "Minimum daily temperature (C)"),
+         yaxis = list(title = "Maxiumum daily temperature (C)"),
+         title = "Scatterplot of daily temperature (C)")
+
+```
+
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Boxplot
+
+```{r}
+weather_df %>% 
+  mutate(name = fct_reorder(id, name)) %>% #reorder the plot according to the neighborhood and price;
+  plot_ly(y = ~tmax, color = ~name, type = "box", colors = "viridis")  %>% 
+  layout(xaxis = list(title = "Site ID"),
+         yaxis = list(title = "Maxiumum daily temperature (C)"),
+         title = "Boxplot of maxiumum daily temperature (C)")
+```
+
+### Lineplot
+
+```{r}
+central_park = 
+  weather_df %>% 
+  filter(name == "CentralPark_NY")
+
+waikiki = 
+  weather_df %>% 
+  filter(name == "Waikiki_HA")
+
+line_ggplot = 
+  waikiki %>% 
+ggplot(aes(x = date, y = tmax, color = name)) + 
+  geom_point() + 
+  geom_line(data = central_park) +
+  labs(
+      x = "Date",
+      y = "Maximum Daily Temp (C)",
+      title = "Lineplot of maximum temp in Centralpart and Waikiki",
+      caption = "Data come from the rnoaa package"
+    )
+
+ggplotly(line_ggplot)
+
+```
+
+
