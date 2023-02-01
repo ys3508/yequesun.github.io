@@ -3,18 +3,16 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Dashboard"
-      href: dashboard.html 
-    - text: "About Me"
-      href: sissi.html 
+    - text: "About"
+      href: index.html 
     - text: "Resume"
       href: experience.html
-    - text: "Project"
+    - text: "Projects"
       href: plotly.html 
     - icon: fa-brands fa-linkedin
       href: https://www.linkedin.com/in/yequesun/    
     - icon: fa-envelope fa-lg
-      href: mailto:<ys3508@cumc.columbia.edu>
+      href: mailto:<sissi.sun0123@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/ys3508/
 
