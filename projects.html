@@ -11,7 +11,7 @@
 
 
 
-<title>About Sissi</title>
+<title>Projects</title>
 
 <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -331,16 +331,13 @@ div.tocify {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="dashboard.html">Dashboard</a>
+  <a href="index.html">About</a>
 </li>
 <li>
-  <a href="sissi.html">About Sissi</a>
+  <a href="resume.html">Resume</a>
 </li>
 <li>
-  <a href="experience.html">Experience</a>
-</li>
-<li>
-  <a href="plotly.html">Plotly</a>
+  <a href="projects.html">Projects</a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/yequesun/">
@@ -349,7 +346,7 @@ div.tocify {
   </a>
 </li>
 <li>
-  <a href="mailto:&lt;ys3508@cumc.columbia.edu&gt;">
+  <a href="mailto:&lt;sissi.sun0123@gmail.com&gt;">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -369,23 +366,156 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">About Sissi</h1>
+<h1 class="title toc-ignore">Projects</h1>
 
 </div>
 
 
-<div id="recent-habits" class="section level1">
-<h1>Recent Habits:</h1>
-<p>Exercise and Vlogging!</p>
-<p><img src="images/IMG_0894.jpg" style="width:75%"></p>
+<p><br></p>
+<div id="section" class="section level1 tabset">
+<h1 class="tabset"></h1>
+<div
+id="assessing-the-association-between-air-pollution-and-asthma-by-county-in-new-york-state-2020"
+class="section level2">
+<h2><strong>Assessing the Association between Air Pollution and Asthma
+by County in New York State, 2020</strong></h2>
+<p><br></p>
+<div id="background" class="section level3">
+<h3><strong>Background</strong></h3>
+<p>Air pollution has grown in New York as a result of industrialization
+and growing urbanization. As the respiratory system is the first organ
+affected negatively by air pollution, exposure to high levels of
+pollutants can make respiratory illnesses worse. Children in New York
+State had an even greater frequency, with an 8.7% prevalence in 2014
+rising to 10.0% in 2015, with the largest burden in New York City.
+According to previous studies on asthma, air pollution may make the
+condition more common. Visually displaying asthma (asthma
+hospitalization, asthma emergency department visits, and asthma death
+rate) by county among residents of New York in 2020 can offer insight
+for interventions and policies seeking to address air pollution hazards
+(fine particulate matter (PM2.5) and ozone (O3)) affecting public health
+in the United States.</p>
+<p><br></p>
 </div>
-<div id="recent-happiness" class="section level1">
-<h1>Recent happiness:</h1>
-<p>I found really good cheese in Tader Joes, it tastes perfect with
-grapes</p>
-<p><img src="images/IMG_0877.JPG"></p>
-<p>I visited Brooklyn Vintage market and bought my favorable U2 CD</p>
-<p><img src="images/IMG_0880.JPG"></p>
+<div id="methods" class="section level3">
+<h3><strong>Methods</strong></h3>
+<p><em>Data Source:</em> Data on air pollutants, asthma, and population
+in 2020 were all sourced from the EPA Air Data, New York State
+Department of Health, and the United States’ Census Bureau respectively.
+<br> <em>Methods:</em> Asthma and air pollutant data by county level
+were collected and joined using QGIS software.</p>
+<p><br> * Air pollution parameters were considered independent modeling
+variables, using spatial interpolation and zonal statistics. * Spatial
+clusters were mapped and analyzed in QGIS to visualize results. Second,
+I linked air pollutant mean concentration to asthma rate by county
+level. * Asthma disadvantage index was conducted to adjust three asthma
+rates; then using Geoda run the regression analysis. * Bivariate Local
+Moran’s I analyses were run using Geoda software to determine clustering
+in asthma death rate.</p>
+<p><br></p>
+</div>
+<div id="results-and-discussions" class="section level3">
+<h3><strong>Results and Discussions</strong></h3>
+<center>
+<img src = "images/1.png" style = "width: 70%">
+<figcaption>
+<b>Map 1.</b>County-level air pollutants and asthma rate
+</figcaption>
+</center>
+<p><br></p>
+<center>
+<img src = "images/2.png" style = "width: 55%">
+<figcaption>
+<b>Map 2.</b>Asthma disadvantage index
+</figcaption>
+</center>
+<p><br></p>
+<center>
+<img src = "images/4.png" style = "width: 80%">
+<figcaption>
+<b>Table 1.</b> Regression analysis on asthma disadvantage index and
+pm2.5/ozone
+</figcaption>
+</center>
+<p><br></p>
+<center>
+<img src = "images/3.png" style = "width: 70%">
+<figcaption>
+<b>Map 3.</b> Spatially significant clusters of excess death rate and
+pm2.5/ozone
+</figcaption>
+</center>
+<p><br></p>
+<ul>
+<li>Direct inspection of determinant maps reveals disparities in the
+geographical distribution of the various determinants, with moderately
+strong clustering between regions of high PM2.5/ozone distribution and
+high asthma prevalence.</li>
+<li>Pm2.5/ozone determinants account for approximately 13% of the
+variation in crude prevalence of asthma.</li>
+<li>There is significant spatial clustering regarding the spatial
+variation of pm2.5/ozone on excess asthma death rate (RR), although the
+Moran’s I value were both weak (pm2.5: 0.339, p-value= 0.001; ozone:
+0.2974, p-value = 0.001).</li>
+<li>Ozone level was statistically significantly associated with excess
+asthma death rate (p-value = 0.038).</li>
+</ul>
+<p><br></p>
+</div>
+<div id="limitations" class="section level3">
+<h3><strong>Limitations</strong></h3>
+<ul>
+<li>For evenly distributed geographical data in the research region, the
+interpolation methodology provides improved pollution level prediction.
+However, the pollution monitoring stations in New York State were not
+evenly distributed, which might contribute to some forecast
+inaccuracies.</li>
+<li>One significant limitation of the health data used in this research
+is that asthma hospitalization records only indicate the number of
+asthma cases, not the severity of the asthma condition.</li>
+<li>I selected the yearly average level of pollutants at a certain site
+as the population’s exposure level, but the workplace was not at the
+same location, which might lead to bias in an individual’s exposure
+assessment, influencing the results.</li>
+</ul>
+<p><br></p>
+</div>
+<div id="conclusion" class="section level3">
+<h3><strong>Conclusion</strong></h3>
+<ul>
+<li>There is significant spatial clustering of pm2.5/ozone level on
+asthma prevalence, although the spatial correlation was weak.</li>
+<li>The effect of specific air pollutants on asthma rate is yet to be
+examined for a plausible conclusion.</li>
+<li>Further study should also consider the socioeconomic factors and
+climatic factors for better reflection.</li>
+</ul>
+<p><br></p>
+</div>
+<div id="references" class="section level3">
+<h3><strong>References</strong></h3>
+<ol style="list-style-type: decimal">
+<li>Chang, Qing, et al. “Association between air pollutants and
+outpatient and emergency hospital visits for childhood asthma in
+Shenyang city of China.” <em>International Journal of
+Biometeorology</em> 64.9 (2020): 1539-1548.</li>
+<li>Khreis, Haneen, et al. “Exposure to traffic-related air pollution
+and risk of development of childhood asthma: a systematic review and
+meta-analysis.” <em>Environment international</em> 100 (2017):
+1-31.</li>
+<li>Marino, Elisa, et al. “Impact of air quality on lung health: myth or
+reality?.” <em>Therapeutic Advances in Chronic Disease</em> 6.5 (2015):
+286-298. New York State Asthma Dashboard. Accessed Nov 20. <a
+href="https://webbi1.health.ny.gov/SASStoredProcess/guest?_program=/EBI/PHIG/apps/asthma_dashboard/ad_dashboard&amp;p=sh"
+class="uri">https://webbi1.health.ny.gov/SASStoredProcess/guest?_program=/EBI/PHIG/apps/asthma_dashboard/ad_dashboard&amp;p=sh</a></li>
+</ol>
+<p><br></p>
+</div>
+<div id="final-deliverable" class="section level3">
+<h3><strong>Final Deliverable</strong></h3>
+<p><a href="./images/poster.pdf">Download the Poster</a></p>
+</div>
+</div>
 </div>
 
 
