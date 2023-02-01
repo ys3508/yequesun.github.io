@@ -516,6 +516,131 @@ class="uri">https://webbi1.health.ny.gov/SASStoredProcess/guest?_program=/EBI/PH
 <p><a href="./images/poster.pdf">Download the Poster</a></p>
 </div>
 </div>
+<div
+id="flight-delay-and-cancellation-issue-at-john-f.-kennedy-international-airport"
+class="section level2">
+<h2><strong>Flight Delay and Cancellation Issue at John F. Kennedy
+International Airport</strong></h2>
+<p><br></p>
+<center>
+<iframe width="718" height="480" src="https://www.youtube.com/embed/Bmqa8bQjW1g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</center>
+<div id="background-1" class="section level3">
+<h3><strong>Background</strong></h3>
+<p>Most of us have experienced waiting at the airport for the delayed
+flight. As the holiday season approaches, departure on-time have
+becoming more and more challenging. This year, there are already <a
+href="https://www.npr.org/2022/11/27/1139327883/flights-delayed-canceled-holiday-travel-thanksgiving">more
+than 4,000 flights delayed</a> as holiday travel spikes in the U.S. The
+flight delay issue especially concerns busy metropolitan airports like
+JFK.</p>
+<p>Using JFK departed flights as an example, we’re interested in
+exploring the factors that are potentially related with flight delay
+(e.g., airlines, weather, and COVID conditions). By doing so, we’d like
+to give the holiday travelers a better sense of what to expect regarding
+flight delay for this holiday season, in order to make better travel
+plans accordingly.</p>
+</div>
+<div id="initial-questions" class="section level3">
+<h3><strong>Initial Questions</strong></h3>
+<p>As in the draft project proposal, we would like to do some reviews on
+the three airports serving New York City, i.e., JFK, LGA, and EWR. The
+initial questions we would like to focus on included the comparisons
+among these three airports, such as restaurants, shops and stores,
+lounges, and other facilities/services.</p>
+<p>However, considering the availability and scale of the accessible and
+available data, we switched our main topic to focus on JFK Airport’s
+delay and cancellation data from 11/1/2021 to 1/31/2022. And the weather
+and COVID cases data within that time range were accordingly. Based on
+these information, our final questions are below:</p>
+<ul>
+<li>What are the key trends of the flights at JFK during last holiday
+season?</li>
+<li>What are the potential factors that contribute to the flight delay
+or cancellation in JFK during last holiday season?</li>
+<li>Are there significant associations of multiple factors with JFK
+flight delays and cancellations during last holiday season?</li>
+</ul>
+</div>
+<div id="data-sources-and-cleaning" class="section level3">
+<h3><strong>Data Sources and Cleaning</strong></h3>
+<p>We used three primary datasets for exploration, visualization, and
+statistical analysis, and an additional supplemental dataset for
+interactive mapping.</p>
+<p><a href="https://www.transtats.bts.gov/ONTIME/">Flight delay and
+cancellation data for JFK departures</a> was obtained from the Bureau of
+Transportation Statistics (BTS). We first wrote a function to iterate on
+the reading-in process for each airline of interest from November 2021
+to January 2022. Some new variable were created for subsequent analysis
+use, including scheduled hours for flight’s departures, year, month,
+day, etc. Delay minutes were manually calculated as the time difference
+in actual departure time and scheduled departure time. Flights with
+actual elapsed time minutes equal to 0 were treated as cancellation. Air
+carriers were recoded as airline names to be more clear.</p>
+<p><br></p>
+<p><a href="https://www.ncdc.noaa.gov/cdo-web/datatools/lcd">Hourly and
+daily weather information</a> from 11/1/2021 to 1/31/2022 was obtained
+from the National Oceanic and Atmospheric Administration (NOAA). We
+selected the specific zip code for JFK and requested the raw data
+thereof. To align the time unit of weather with flight information,
+considering data availability, we picked the weather at the 51th minute
+to represent the weather of the hour, and the weather at 23:59 to
+represent the weather condition of the day. Only date and hourly/daily
+weather condition of interest were kept in the resulted tidied
+dataset.</p>
+<p><br></p>
+<p><a
+href="https://data.cityofnewyork.us/Health/COVID-19-Daily-Counts-of-Cases-Hospitalizations-an/rc75-m7u3">Daily
+COVID cases count</a> from 11/1/2021 to 1/31/2022 was obtained, by API,
+from NYC OpenData, provided by the NYC Department of Health and Mental
+Hygiene (DOHMH). The resulted dataset included date, year, month, day,
+and daily case counts.</p>
+<p><br></p>
+<p>An additional source for the interactive map was <a
+href="https://data.humdata.org/dataset/ourairports-usa">U.S. domestic
+airport location information</a> from the Humanitarian Data Exchange,
+where we extracted the latitude and longitude for those airports with
+delay and/or cancellation records.</p>
+<p> </p>
+</div>
+<div id="statistical-anslysis" class="section level3">
+<h3><strong>Statistical Anslysis</strong></h3>
+<p>Check it on <a
+href="https://yingchenx.github.io/final_project_jfk_delay/">website</a></p>
+</div>
+<div id="final-deliverable-1" class="section level3">
+<h3><strong>Final Deliverable</strong></h3>
+<ul>
+<li><a
+href="https://yingchenx.github.io/final_project_jfk_delay/">website</a></li>
+<li><a
+href="https://sn2ylh-siyue-gao.shinyapps.io/delay_cancelation/">Shiny
+App</a></li>
+</ul>
+</div>
+</div>
+<div id="marketing-strategies-on-broncho-vaxom-for-astrazeneca"
+class="section level2">
+<h2><strong>Marketing Strategies on Broncho-Vaxom for
+AstraZeneca</strong></h2>
+<ul>
+<li>Supported American pharmaceutical companies’ strategy to penetrate
+the Chinese pharmaceutical sector by developing presentations, including
+a video, and other communications that successfully explained drug
+efficacy</li>
+</ul>
+<div id="final-deliverable-2" class="section level3">
+<h3><strong>Final Deliverable</strong></h3>
+<ul>
+<li>Marketing reports</li>
+<li>Power Points</li>
+<li><a
+href="https://www.bilibili.com/video/BV1kf4y1L7ab?t=2.0">Video</a>
+<br></li>
+</ul>
+</div>
+</div>
 </div>
 
 

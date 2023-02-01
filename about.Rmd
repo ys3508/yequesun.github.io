@@ -7,19 +7,37 @@ output:
 
 ---
 
-# Recent Habits:
+## Fun Stats 
+
+| Fun Facts  | Answers |
+| ------------- | ------------- |
+| Typing speed (on a good day)  | 	135 WPM  |
+| Number of cats desired | 5  |
+| Number of cats acquired | 0  |
+| Meals in a day | [2,5]  |
+| City I lived | 8  |
+
+## Recent Habits
 
 Exercise and Vlogging!
 
-<img src="images/IMG_0894.JPG" style="width:75%">
+Go check some of Vlogs in [my channel](https://space.bilibili.com/2142334?spm_id_from=333.1007.0.0): 
 
-# Recent happiness:
+<img src="images/IMG_0894.JPG" style="width:65%">
 
-I found really good cheese in Tader Joes, it tastes perfect with grapes
+## Recent Happiness {.tabset}
 
-<img src="images/IMG_0877.JPG">
+### Birthday Party
 
-I visited Brooklyn Vintage market and bought my favorable U2 CD
+<img src="images/IMG_9172.JPG" style="width:65%">
 
-<img src="images/IMG_0880.JPG">
+### Mexico Trip
+
+<img src="images/IMG_7260.JPG" style="width:65%">
+
+### Tader Joes Cheese
+
+<img src="images/IMG_0877.JPG" style="width:65%">
+
+
 

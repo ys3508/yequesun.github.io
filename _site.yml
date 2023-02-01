@@ -3,12 +3,13 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: index.html 
+
     - text: "Resume"
       href: resume.html
     - text: "Projects"
       href: projects.html 
+    - text: "About"
+      href: about.html 
     - icon: fa-brands fa-linkedin
       href: https://www.linkedin.com/in/yequesun/    
     - icon: fa-envelope fa-lg
