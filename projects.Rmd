@@ -10,7 +10,7 @@ output:
 
 # {.tabset}
 
-## **Assessing the Association between Air Pollution and Asthma by County in New York State, 2020**
+## **Assessing the Association between Air Pollution and Asthma by County in New York State,2020**
 
 <br>
 

@@ -7,9 +7,9 @@ output:
 
 ---
 
-## Fun Stats 
+## Fun Stats :)
 
-| Fun Facts  | Answers |
+| Fun Facts | Answers |
 | ------------- | ------------- |
 | Typing speed (on a good day)  | 	135 WPM  |
 | Number of cats desired | 5  |
