@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-Hi, I&apos;m Yeque. You can call me Sissi.<br>
+Hi, I&apos;m Yeque. You can call me Sissi! <br>
 
 
 <img src="images/IMG_0843.JPG" style="width:75%">
@@ -16,9 +16,11 @@ Hi, I&apos;m Yeque. You can call me Sissi.<br>
 I am a passionate second-year MPH student in [Environmental Health Science](https://www.publichealth.columbia.edu/academics/degrees/master-public-health/columbia-mph/masters-public-health-environmental-health-sciences/) with certificate in [Applied Biostatistics and Public Health Data Science](https://www.publichealth.columbia.edu/become-student/degrees/masters-programs/masters-public-health/columbia-mph/certificates/applied) at [Columbia University](https://www.columbia.edu/). <br>
 
 Environmental health and safety, data analysis, cancer research and epidemiological studies are some of my key interests. I also am proficient with R/SAS/QGIS, with a sufficient understanding of statistical analysis, geographic mapping, and data visualization.
+
+
 <br>
 
-### Contact Information
+### Contact Me
 Yeque Sun <br>
 Email: [sissi.sun0123@gmail.com](mailto:sissi.sun0123@gmail.com)  
 Phone: +(1)212-380-7559
