@@ -1,0 +1,25 @@
+---
+title: "About"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+
+# Recent Habits:
+
+Exercise and Vlogging!
+
+<img src="images/IMG_0894.JPG" style="width:75%">
+
+# Recent happiness:
+
+I found really good cheese in Tader Joes, it tastes perfect with grapes
+
+<img src="images/IMG_0877.JPG">
+
+I visited Brooklyn Vintage market and bought my favorable U2 CD
+
+<img src="images/IMG_0880.JPG">
+
