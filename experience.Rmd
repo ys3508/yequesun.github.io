@@ -8,7 +8,7 @@ output:
 
 <br>
 
-# Introduction {.tabset}
+# Resume {.tabset}
 
 Strong biomedical and environmental science background, including Columbia MPH (2023) combined with real-world data analysis experience applied to clinical and epidemiology settings.
 
